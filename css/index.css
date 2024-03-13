@@ -54,7 +54,7 @@ input[type="button"]:hover {
 }
 
 img {
-    width: 4%;
+    width: 40px;
     height: auto;   
     object-fit: contain;
 }

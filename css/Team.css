@@ -37,3 +37,21 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+.text-container {
+  position: relative;
+  margin: 20px;
+}
+
+.transparent-rectangle {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(19, 1, 1, 0.5);
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  z-index: -1;
+}
+p {
+  padding: 20px; 
+}
+
