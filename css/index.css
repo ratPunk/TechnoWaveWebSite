@@ -1,0 +1,60 @@
+body{
+    background: linear-gradient(to bottom, purple, blue);
+    color: white;
+    font-family: Arial, sans-serif;
+
+    background-image: url('waves.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #007BFF;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input[type="button"] {
+    display: inline-block;
+    color: white;
+    background: linear-gradient(to bottom right, purple, blue);
+    border: none;
+    transition: background-color 0.3s ease;
+    border-radius: 6%;
+    font-size: 16px;
+    padding: 12px 24px;
+    font-family: Arial, sans-serif;
+}
+
+input[type="button"]:hover {
+    filter: brightness(90%);
+}
+
+img {
+    width: 4%;
+    height: auto;   
+    object-fit: contain;
+}
