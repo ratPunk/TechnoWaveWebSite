@@ -11,9 +11,19 @@ body {
   background-position: center;
 }
 
+h1{
+  color: purple;
+  text-align: center;
+}
+
 h2, h3 {
   text-align: center;
   color: #007BFF;
+}
+
+h6{
+  text-align: center;
+  color: rgb(49, 2, 49);
 }
 
 p {
@@ -49,6 +59,7 @@ a:hover {
   height: 100%;
   background-color: rgba(19, 1, 1, 0.5);
   transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  border-radius: 4%;
   z-index: -1;
 }
 p {
