@@ -36,7 +36,7 @@ img {
   height: auto;
   display: block;
   margin: 10px auto;
-  border-radius: 6%;
+  border-radius: 24px;
 }
 
 a {
@@ -59,10 +59,22 @@ a:hover {
   height: 100%;
   background-color: rgba(19, 1, 1, 0.5);
   transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
-  border-radius: 4%;
+  border-radius: 12px;
   z-index: -1;
 }
 p {
   padding: 20px; 
 }
-
+.neonText{
+  color: #fff;
+  text-shadow:
+  0 0 7px rgb(6, 139, 228),
+  0 0 10px rgb(6, 139, 228),
+  0 0 21px rgb(6, 139, 228),
+  0 0 42px rgb(125, 32, 247),
+  0 0 82px rgb(125, 32, 247),
+  0 0 92px rgb(125, 32, 247),
+  0 0 102px rgb(125, 32, 247),
+  0 0 151px rgb(125, 32, 247)
+  ;
+}

@@ -2,7 +2,7 @@ body{
     background: linear-gradient(to bottom, purple, blue);
     color: white;
     font-family: Arial, sans-serif;
-
+    
     background-image: url('waves.svg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,7 +13,6 @@ h1, h2, h3 {
     text-align: center;
     color: #007BFF;
 }
-
 p {
     text-align: justify;
     line-height: 1.6;
@@ -32,9 +31,14 @@ a {
     color: #007BFF;
     text-decoration: none;
 }
-
 a:hover {
     text-decoration: underline;
+    
+}
+
+.Box:hover{
+    outline: 1px solid rgb(32, 79, 235);
+    
 }
 
 input[type="button"] {
@@ -43,7 +47,7 @@ input[type="button"] {
     background: linear-gradient(to bottom right, purple, blue);
     border: none;
     transition: background-color 0.3s ease;
-    border-radius: 6%;
+    border-radius: 24px;
     font-size: 16px;
     padding: 12px 24px;
     font-family: Arial, sans-serif;
@@ -51,12 +55,16 @@ input[type="button"] {
 
 input[type="button"]:hover {
     filter: brightness(90%);
+    transform: scale(1.02);
 }
 
 img {
     width: 40px;
     height: auto;   
     object-fit: contain;
+}
+img:hover{
+    transform: scale(1.05);
 }
 
 .text-container {
@@ -71,8 +79,27 @@ img {
     background-color: rgba(19, 1, 1, 0.5);
     transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
     z-index: -1;
+    border-radius: 32px;
 }
 
 .ul-container {
     padding: 20px; 
+}
+.neonText{
+    color: #fff;
+    text-shadow:
+    0 0 7px rgb(6, 139, 228),
+    0 0 10px rgb(6, 139, 228),
+    0 0 21px rgb(6, 139, 228),
+    0 0 42px rgb(125, 32, 247),
+    0 0 82px rgb(125, 32, 247),
+    0 0 92px rgb(125, 32, 247),
+    0 0 102px rgb(125, 32, 247),
+    0 0 151px rgb(125, 32, 247)
+    ;
+  }
+
+.imgShadow{
+    border: 1px solid #001220;
+    box-shadow: 0 15px 20px rgb(205, 7, 245);
 }
